@@ -4,11 +4,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Tốc độ di chuyển
+    public float moveSpeed = 10f; // Tốc độ di chuyển
     public float jumpForce = 5f; // Lực nhảy
     public float rotationSpeed = 100f; // Tốc độ xoay
     private CharacterController characterController;
-    private Rigidbody ballRigidbody;
+    
     private Vector3 velocity;
     private Vector3 initialDirection; // Hướng di chuyển ban đầu
     private Animator animator; // Thêm biến Animator
